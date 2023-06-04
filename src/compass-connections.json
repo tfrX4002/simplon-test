@@ -1,0 +1,18 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "7a3b6f54-496c-4a22-89aa-a81b622ea1ef",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/"
+      },
+      "favorite": {
+        "name": "Simplon_test",
+        "color": "color2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccccccc4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color: rgba(255, 0, 0, 0.861);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+li {
+  margin-bottom: 5px;
+}
+.app-title {
+  color: #333;
+  font-size: 24px;
+
+}
+
+.nav-link {
+  color: rgba(255, 0, 0, 0.861);
+  text-decoration: none;
+
+}
+
+h1{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
